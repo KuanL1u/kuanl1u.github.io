@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: projects
 permalink: /projects/
@@ -36,10 +36,15 @@ horizontal: false
   {% endfor %}
 
 {%- else -%}
+
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
+
+{%- assign sorted_projects = site.projects | sort: "importance" -%}
+
   <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
+
+{% if page.horizontal -%}
+
   <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
@@ -55,4 +60,4 @@ horizontal: false
   </div>
   {%- endif -%}
 {%- endif -%}
-</div>
+</div> -->
