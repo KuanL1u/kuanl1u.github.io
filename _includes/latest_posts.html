@@ -11,12 +11,14 @@
               {% assign latest_posts_limit = latest_posts_size %}
               {% endif %}
               {% for item in latest_posts limit: latest_posts_limit %}
-                <tr>
-                  <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
-                  <td>
-                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                  </td>
-                </tr>
+                {% unless item.title contains "Hidden Post" %}
+                  <tr>
+                    <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+                    <td>
+                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    </td>
+                  </tr>
+                {% endunless %}
               {%- endfor %}
               </table>
             </div>
