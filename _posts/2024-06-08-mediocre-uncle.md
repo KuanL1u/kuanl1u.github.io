@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 平庸的大叔
+title: (Hidden Post)平庸的大叔
 date: 2024-06-08 22:00:00-0400
 description: 一些随笔
 categories: 随笔
