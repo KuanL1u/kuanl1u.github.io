@@ -9,7 +9,10 @@ math: true
 <!-- Write your May 2026 retrospective here. -->
 转眼5月底了。之所以隔了接近三个月，是因为中间发生了不可预测的变故 - 被裁了。没时间抱怨，直接投入到了找工作的过程中。现在已经签了offer，稍微复盘一下这场人生中最集中的找工作吧。
 
-面试过的公司：
+## 面试过的公司
+
+### 大公司
+
 apple
 nvidia
 google
@@ -18,6 +21,7 @@ microsoft
 amazon
 bytedance
 
+### 初创
 openai
 anthropic
 xai
@@ -30,7 +34,9 @@ cresta
 livex
 open router
 x, the moonshot factory
+deepseek
 
+### 中型公司
 snowflake
 datadog
 coinbase

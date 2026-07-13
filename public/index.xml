@@ -11,8 +11,85 @@
     </image>
     <generator>Hugo -- 0.140.1</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 00:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 00:00:00 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monthly Retro 2026 Jun</title>
+      <link>http://localhost:1313/posts/monthly-retro-2026-jun/</link>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/posts/monthly-retro-2026-jun/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+&lt;p&gt;在新公司上班一个月了，上手了整套 agentic RL 的训练流程 &amp;ndash; 从数据收集，到环境搭建，到模型后训练。但是目前还是相对于浮于表面，并没有深入到每个阶段的内部了解。希望接下来能更深入到每个环节吧。如果要更具体一些的话，就是&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;miles的框架了解&lt;/li&gt;
+&lt;li&gt;模型训练megatron的框架&lt;/li&gt;
+&lt;li&gt;sglang的框架&lt;/li&gt;
+&lt;li&gt;目前的瓶颈&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目前的一个观察：现在的ai实在是太好用了，好用到很多人其实对一些基础架构根本不了解，完全依赖于模型自己的判断。这样确实提高了效率，因为即使不了解，也可以推进一些任务。但是我总觉得这样不够，总觉得这样其实没有understanding，会造成错误的判断。我个人还是希望更多的了解构架，有了更好的understanding才能做出相对正确的判断。&lt;/p&gt;
+&lt;p&gt;以及目前lab又在转型，我还是需要多找人聊一聊之后的方向。其实大部分的工作也可以抽象成一种rl。我们需要设计出合适的reward function，才能指引我们走向成功。&lt;/p&gt;
+&lt;p&gt;目前有一些困惑，更多是技术上的困惑。希望自己能多花一些时间把技术搞明白。&lt;/p&gt;
+&lt;h2 id=&#34;生活&#34;&gt;生活&lt;/h2&gt;
+&lt;p&gt;在 sf 租了一个小房间。现在 sf 的房租高的吓人，但是接手了一个还可以的转租，离公司也近，暂时生活上就不必花太多功夫了。cd同学也挺喜欢sf的，说不定以后就会直接搬来sf了。&lt;/p&gt;
+&lt;p&gt;在sf也希望能多交一些朋友/多参加一些活动吧。既然在sf了，还是要多参与一些活动比较好。&lt;/p&gt;
+&lt;h2 id=&#34;反思&#34;&gt;反思&lt;/h2&gt;
+&lt;p&gt;最近有一些懈怠。要重新拾起之前的行动力。居安思危。在相对安全的时候，需要储备！！！&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;健身&lt;/li&gt;
+&lt;li&gt;多交流&lt;/li&gt;
+&lt;li&gt;参与开源项目&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Monthly Retro 2026 May</title>
+      <link>http://localhost:1313/posts/monthly-retro-2026-may/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/posts/monthly-retro-2026-may/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;转眼5月底了。之所以隔了接近三个月，是因为中间发生了不可预测的变故 - 被裁了。没时间抱怨，直接投入到了找工作的过程中。现在已经签了offer，稍微复盘一下这场人生中最集中的找工作吧。&lt;/p&gt;
+&lt;h2 id=&#34;面试过的公司&#34;&gt;面试过的公司&lt;/h2&gt;
+&lt;h3 id=&#34;大公司&#34;&gt;大公司&lt;/h3&gt;
+&lt;p&gt;apple
+nvidia
+google
+meta
+microsoft
+amazon
+bytedance&lt;/p&gt;
+&lt;h3 id=&#34;初创&#34;&gt;初创&lt;/h3&gt;
+&lt;p&gt;openai
+anthropic
+xai
+project prometheus
+reflection ai
+llm arena
+cursor
+radix arc
+cresta
+livex
+open router
+x, the moonshot factory
+deepseek&lt;/p&gt;
+&lt;h3 id=&#34;中型公司&#34;&gt;中型公司&lt;/h3&gt;
+&lt;p&gt;snowflake
+datadog
+coinbase
+uber&lt;/p&gt;
+&lt;p&gt;a16z(talk only)&lt;/p&gt;
+&lt;h2 id=&#34;观察&#34;&gt;观察&lt;/h2&gt;
+&lt;p&gt;目前各大公司都比较fomo，全力投入agent的应用。正好我的背景比较match，所以拿到了挺多的面试机会。但是与此同时，面试的bar也很高，所以即使完成了onsite，甚至觉得onsite表现挺好，也不一定能收获自己想要的结果。&lt;/p&gt;
+&lt;p&gt;大公司的面试流程相对比较固定，但是也在变革。几乎已经没有人考察leetcode类型的题目了。但是仍然有不入流的公司保持着之前的惯性，这里就不点名了。&lt;/p&gt;
+&lt;p&gt;创业公司流程就完全无法预测。但是，当红炸子鸡的general hire的面试题，反而被全网拔了一个底朝天 - 像是 openai 和 anthropic， 网上都是原题，面试者都在纯粹的表演。很难理解他们现在的选拔机制筛选的是什么样的人。又或者他们在评测某些完全没法量化的尺度？这我就无从得知了。&lt;/p&gt;
+&lt;p&gt;比较有意思的面试是project prometheus，有两轮engineering taste测试，纯聊天，畅想未来。&lt;/p&gt;
+&lt;p&gt;目前的结果，拿到了一些大公司的offer。创业公司全军覆没。（目前还有创业公司的面试在进行中，但是不确定能走多远）&lt;/p&gt;
+&lt;h2 id=&#34;思考&#34;&gt;思考&lt;/h2&gt;
+&lt;p&gt;目前来看我在创业公司上的表现让人非常不满意。为什么会这样？我尝试着分析一下，希望能称为之后面试的指导思想。&lt;/p&gt;
+&lt;h3 id=&#34;1-承认创业公司的不确定性&#34;&gt;1. 承认创业公司的不确定性&lt;/h3&gt;
+&lt;p&gt;创业公司的面试流程充满了不确定性，最后能不能拿到offer很大程度上看运气（包括许多方面，比如时机，环境，缘分等等）。这些我们无法控制。但是有一点不变的是，创业公司希望你是一个喜欢创业的人，需要能说出你对公司的向往，以及对行业的见解。&lt;/p&gt;
+&lt;h3 id=&#34;2-做好可以掌控的&#34;&gt;2. 做好可以掌控的&lt;/h3&gt;
+&lt;p&gt;面试可能就是一场 RL，只不过env会变，所以很难拿到准确的feedback和reward。很幸运的是，我获得了大约两次半的feedback（并非全部来自创业公司），应该列下来一个一个分析。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Monthly Retro 2026 Feb</title>
       <link>http://localhost:1313/posts/monthly-retro-2026-feb/</link>
